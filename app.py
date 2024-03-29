@@ -1,7 +1,4 @@
-import random
-import find_specific_number as fsp
+import functions_warehouse as fw
 
-numbers = random.sample(range(0, 201, 2), 3)
-print(numbers)
-
-max_number_inList = fsp.find_max(numbers)
+name = "1234abcd"
+name = fw.reverse_string(name)
